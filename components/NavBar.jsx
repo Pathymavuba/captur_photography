@@ -22,7 +22,7 @@ const NavBar = () => {
       }
     };
     window.addEventListener("scroll", changeColor);
-  });
+  },[]);
 
   return (
     <div
